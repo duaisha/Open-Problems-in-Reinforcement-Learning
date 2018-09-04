@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## Open Problems in Reinforcement Learning
 
-You can use the [editor on GitHub](https://github.com/duaisha/Open-Problems-in-Reinforcement-Learning/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I met Harm Van Seijen at Microsoft Bangalore few weeks back. He has done his PhD under Richard Sutton. It was really interesting to talk to him and know about some of the open research problems in this domain. Here are few points that I remember:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1.  Mostly his talk focused on introducing topics  like Monte Carlo, Temporal Differencing, SARSA, Q-Learning etc (Which you taught in the class same slides mostly)
+2.  Second half was new where he talked mostly about the open problems in RL like:
+      a.    Efficient exploration techniques: Currently papers like DQN uses simple exploration techniques like epsilon greedy/ softmax exploration. These are inefficient and becomes obsolete once reward signals becomes sparse. So, there is lot of scope in this track.
+     b.    Safety Approach : This  is mostly important in areas where we need real time performance like robot movement, obstacle avoidance by drone where experiments are expensive and time consuming to fix and restart again. This requires developing methods to incorporate safety in a variety of areas like  exploration and  modifying reward definition.
 
-### Markdown
+3. According to me RL can boost performance in many AI based applications. So, one of my idea was to solve stock price prediction problem using RL but recently Sriraj Raval famous youtuber posted about the same on twitter
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/07/avatar_user_36656_1500408666-180x180.jpg)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/duaisha/Open-Problems-in-Reinforcement-Learning/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
